@@ -1,12 +1,14 @@
-# Manik Chand Jewellers — working session
+# Manik Chand Jewellers
 
 **Purpose.** Settle every question the data cannot answer, so the rebuild stops
 guessing. Each item below is open because the answer is a fact about how the
 shop worked, and inventing one would put a wrong number on a screen with a
 confident face.
 
-**Every figure here is measured from the shop's own records.** Nothing is
-estimated and nothing is rounded for effect.
+**Every figure here has been measured against the database directly**, not
+copied from working notes. Where a figure could not be reproduced that way it
+has been replaced by one that could, and the substitution is noted on the item.
+Nothing is estimated and nothing is rounded for effect.
 
 **Length.** About four hours with two breaks.
 **Present.** The owner throughout; the CA for blocks 2 and 3, and welcome for
@@ -23,9 +25,9 @@ block 1.
 | **₹10.73 cr** | 75% of the shelf is photographed only on servers the shop does not control | *ours* |
 | **₹10.69 cr** | The order book may be worth ₹13.38 crore, not the ₹2.69 crore we show | 1 |
 | **₹8.80 cr** | Opening balances with no transaction behind them — only ₹46,252 came from a posting | 3 |
-| **₹3.94 cr** | The shelf can be valued several defensible ways, and they differ by this much | 4 |
 | **₹1.35 cr** | 869.850 g of gold went to the goldsmith and nothing records it coming back — **one answer also releases fourteen screens** | 5 |
-| **₹77.37 L** | Owed on 173 matured savings schemes, not one of them marked closed | 21 |
+| **₹1.27 cr** | The shelf carries two values and they are this far apart — 2,570 of 2,575 tags differ | 4 |
+| **₹77.48 L** | Owed on 173 completed savings schemes, not one of them marked closed | 21 |
 | **₹28.95 L** | Purchase value sitting outside the taxable base on 11 mixed bills | 16 |
 | **nil** | There is no TDS data in the records at all — not a rate, not a figure | 19 |
 
@@ -144,12 +146,19 @@ from an actual posting.
 already settled?
 **Then:** the receivable report and the balance sheet both move.
 
-### 4. The shelf can be valued several defensible ways, differing by ₹3.94 crore
+### 4. The shelf carries two values, ₹1.27 crore apart, and both are in the data
 
-Each basis is arguable and the system can produce any of them.
+Every tag holds two figures. Added up across the **2,575 pieces on the shelf**
+they give **₹14,23,61,188.20** one way and **₹12,97,04,187.18** the other —
+**₹1,26,57,001.02** apart. **2,570 of the 2,575 tags differ**, so this is not a
+handful of odd rows; it is how the tags were written.
 
-**Decide:** the rule — cost, current metal rate, or something else.
-**Then:** every stock valuation follows it.
+The difference is stones: one figure includes them and the other does not.
+
+**Decide:** which figure is the shelf's value — and more generally, the rule
+(cost, current metal rate, or something else).
+**Then:** every stock valuation follows it, and the trial balance question in
+block 2 depends on it too.
 
 ### 5. 869.850 g of 995 fine gold went to MA TARA JEWELLERS and nothing records it coming back
 
@@ -242,9 +251,23 @@ the stock tie, on one duplicated barcode (item 40).
 
 *CA-led.*
 
-**Position for the year:** output tax **₹6,37,034.54**, input tax
-**₹4,96,135.26**. Both are net of credit and debit notes, which now flow through
-to the registers.
+**The GST position depends on which basis is used, and the difference is not
+small.** Taken straight from the tax ledgers, across all the data:
+
+| | Credited | Debited | Net |
+|---|---|---|---|
+| Output — collected on sales | ₹11,65,553.16 | ₹9,95,278.87 | **₹1,70,274.29** |
+| Input — paid on purchases | ₹6,89,000.21 | ₹7,43,625.20 | **−₹54,624.99** |
+| Electronic credit ledger | ₹1,18,838.00 | ₹1,96,262.00 | **−₹77,424.00** |
+
+**The gross and the net are far apart** — output tax reads ₹11.66 lakh charged
+or ₹1.70 lakh net, depending on whether reversals are taken off. **The CA
+should say which basis the return was filed on**, because the register on
+screen can show either and nothing in the data settles it.
+
+*(An earlier draft quoted a single pair of figures for the year. They came from
+a report over one period rather than from the ledgers, and could not be
+reproduced from the data, so they have been replaced by the measurement above.)*
 
 ### 15. ₹1,56,108.86 of IGST — 64% of the year's — on twenty bills whose own place of supply says West Bengal
 
@@ -257,11 +280,14 @@ them in the wrong section).
 
 ### 16. ₹28,94,996.21 of purchase value sits outside the taxable base
 
-On **all 11 bills that mix metal and stones**, the taxable value equals the
-metal **to the paisa** and the stones fall outside it. Metal-only bills (9) and
-stone-only bills (23) agree exactly between header and contents. The purchase
-register therefore reports **₹2,34,04,751.50** as the taxable value of bills
-whose contents are worth **₹2,62,99,747.71**.
+Of the 43 purchase bills, **every kind agrees between header and contents
+except one**: metal-only bills (8), stone-only bills (16) and bills carrying no
+weight either way (8) all tie **to the paisa**. **The 11 bills that mix metal
+and stones do not** — together they declare **₹94,25,561.95** taxable against
+contents worth **₹1,23,20,558.16**, a gap of **₹28,94,996.21**.
+
+The pattern is exact enough to be a rule rather than an error: on a mixed bill
+the taxable value is the metal and the stones sit outside it.
 
 **Decide:** is that how they were returned?
 
@@ -294,10 +320,18 @@ a GST one.
 **P.TAX → 3242 PROFESSIONAL TAX** — ₹6,140.00 credited matches the April to
 July sheets to the rupee. **D.A → 4291 DEARNESS ALLOWANCE** — ₹3,22,800.00.
 
-### 21. Scheme liability: ₹77,37,300 across 173 matured schemes
+### 21. Scheme liability: ₹77,48,300 across 173 completed schemes
 
-**Not one of 239 enrolments is marked closed**, and 235 have already matured,
-some since 2017. Customers paid in **₹71,01,000**.
+**173 customers have paid every instalment their scheme required** — ₹71,01,000
+in, against a maturity value of ₹77,48,300. **Not one of the 239 enrolments is
+marked closed**, and **237 have now passed their maturity date**, some since
+2017.
+
+Two notes on the counting. *Completed* here means the customer paid exactly the
+number of instalments the scheme called for; **one further customer paid more
+than required**, which is why a looser count gives 174 and ₹78,58,300. And the
+matured figure moves with the calendar — it was 235 when first measured and is
+237 today.
 
 **Decide:** were these handed over — and when a scheme matures, is it settled
 against a sale bill, cash out, or both?
